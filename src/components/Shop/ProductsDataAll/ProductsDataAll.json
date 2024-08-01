@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "name": "Calabrese Broccoli",
+    "category": "Vegetable",
+    "originalPrice": 20.0,
+    "salePrice": 13.0,
+    "imageUrl": "https://i.imgur.com/LGcm9Mf.png",
+    "rating": 4.5
+  },
+  {
+    "id": 2,
+    "name": "Fresh Banana",
+    "category": "Fresh",
+    "originalPrice": 20.0,
+    "salePrice": 14.0,
+    "imageUrl": "https://i.imgur.com/gxO44FJ.png",
+    "rating": 4.2
+  },
+  {
+    "id": 3,
+    "name": "Almonds",
+    "category": "Nuts",
+    "originalPrice": 20.0,
+    "salePrice": 15.0,
+    "imageUrl": "https://i.imgur.com/fyRxixb.png",
+    "rating": 3.8
+  },
+  {
+    "id": 4,
+    "name": "Vegan Red Tomato",
+    "category": "Vegetable",
+    "originalPrice": 20.0,
+    "salePrice": 17.0,
+    "imageUrl": "https://i.imgur.com/gRErYnO.png",
+    "rating": 4.7
+  },
+  {
+    "id": 5,
+    "name": "Mung Bean",
+    "category": "Health",
+    "originalPrice": 20.0,
+    "salePrice": 11.0,
+    "imageUrl": "https://i.imgur.com/UOQP1Pj.png",
+    "rating": 4.1
+  },
+  {
+    "id": 6,
+    "name": "Brown Hazelnut",
+    "category": "Nuts",
+    "originalPrice": 20.0,
+    "salePrice": 12.0,
+    "imageUrl": "https://i.imgur.com/erOBGeQ.png",
+    "rating": 3.9
+  },
+  {
+    "id": 7,
+    "name": "Eggs",
+    "category": "Fresh",
+    "originalPrice": 20.0,
+    "salePrice": 17.0,
+    "imageUrl": "https://i.imgur.com/mhXiYKE.png",
+    "rating": 4.6
+  },
+  {
+    "id": 8,
+    "name": "Zelco Suji Elaichi Rusk",
+    "category": "Fresh",
+    "originalPrice": 20.0,
+    "salePrice": 15.0,
+    "imageUrl": "https://i.imgur.com/T1shwFE.png",
+    "rating": 4.3
+  },
+  {
+    "id": 9,
+    "name": "Cashews",
+    "category": "Nuts",
+    "originalPrice": 20.0,
+    "salePrice": 12.0,
+    "imageUrl": "https://i.imgur.com/5tyorp1.png",
+    "rating": 4.0
+  },
+  {
+    "id": 10,
+    "name": "Fresh Corn",
+    "category": "Fresh",
+    "originalPrice": 20.0,
+    "salePrice": 17.0,
+    "imageUrl": "https://i.imgur.com/WFVIDNS.png",
+    "rating": 4.4
+  },
+  {
+    "id": 11,
+    "name": "Organic Almonds",
+    "category": "Health",
+    "originalPrice": 20.0,
+    "salePrice": 15.0,
+    "imageUrl": "https://i.imgur.com/5l3c5eV.png",
+    "rating": 4.8
+  },
+  {
+    "id": 12,
+    "name": "Pistachios",
+    "category": "Nuts",
+    "originalPrice": 20.0,
+    "salePrice": 14.0,
+    "imageUrl": "https://i.imgur.com/cHDwGFn.png",
+    "rating": 4.2
+  }
+]

@@ -1,0 +1,116 @@
+.sectionAboutMarket {
+  margin-bottom: 70px;
+  background-color: #ececec;
+  padding-top: 20px;
+}
+
+.contentWrapper {
+  display: flex;
+  margin-bottom: 60px;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.imageWrapper {
+  width: 600px;
+}
+
+.aboutImage {
+  width: 600px;
+  height: auto;
+}
+
+.whyChooseUs {
+  font-size: 16px;
+  font-weight: 600;
+  color: #7eb693;
+  font-family: "Yellowtail", cursive;
+}
+
+.mainTitle {
+  font-size: 24px;
+  font-weight: 700;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  color: #274c5b;
+  width: 300px;
+}
+
+.description {
+  font-size: 14px;
+  color: #333;
+  line-height: 1.6;
+  margin-bottom: 15px;
+  font-family: "Open Sans", sans-serif;
+  width: 600px;
+}
+
+.featuresList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.featureTitle {
+  font-size: 16px;
+  font-weight: 600;
+  color: #274c5b;
+  margin-bottom: 5px;
+  background-color: #d5d0d0;
+  padding: 15px;
+  border-radius: 30px;
+  margin-bottom: 15px;
+  width: 200px;
+}
+
+.featureDescription {
+  font-size: 14px;
+  color: #333;
+  line-height: 1.6;
+  margin-bottom: 15px;
+  font-family: "Open Sans", sans-serif;
+  width: 500px;
+}
+
+.serviceWrapper {
+  display: flex;
+  justify-content: space-around;
+}
+
+.servicesList {
+  display: flex;
+  gap: 30px;
+}
+
+.serviceItem {
+  background-color: #d5d0d0;
+  padding: 15px;
+  border-radius: 20px;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  max-width: 200px;
+}
+
+.icon {
+  font-size: 2rem;
+  color: #1ebd4b;
+  margin-bottom: 10px;
+}
+
+.serviceTitle {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #274c5b;
+  margin-bottom: 5px;
+}
+
+.serviceDescription {
+  font-size: 14px;
+  color: #333;
+  line-height: 1.6;
+  margin-bottom: 15px;
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+}

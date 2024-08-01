@@ -1,0 +1,91 @@
+.reviewsSection {
+  padding: 40px 0;
+  background-image: url("../imgReviews//imgPeople.png");
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 100px;
+}
+
+.reviewsContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.subtitle {
+  font-size: 18px;
+  color: #09f835;
+  font-family: "Yellowtail", cursive;
+}
+
+.title {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #274c5b;
+}
+
+.swiperContainer {
+  padding: 20px 0;
+}
+
+.reviewItem {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.reviewsSection {
+  padding: 2rem 1rem;
+}
+
+.reviewsContainer {
+  text-align: center;
+}
+
+.subtitle {
+  font-size: 18px;
+  color: #09f835;
+}
+
+.title {
+  font-size: 32px;
+  margin-bottom: 1rem;
+}
+
+.statsContainer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.statItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.circle {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  border: 2px solid #09f835;
+  background-color: #f0f0f0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #274c5b;
+}
+
+.circle h3 {
+  margin: 0;
+  font-size: 28px;
+}
+
+.statDescription {
+  margin: 0;
+  font-size: 16px;
+}
+.ulList {
+  display: flex;
+  gap: 20px;
+}

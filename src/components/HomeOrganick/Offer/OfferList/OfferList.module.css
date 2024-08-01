@@ -1,0 +1,47 @@
+/* OfferList.module.css */
+.offerListSection {
+  padding: 40px;
+  background-color: #274c5b;
+  margin-bottom: 70px;
+}
+
+.offerListHeader {
+  text-align: center;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.subtitle {
+  font-family: "Yellowtail", cursive;
+  font-size: 18px;
+  color: #08f423;
+}
+
+.title {
+  font-size: 2rem;
+  margin-top: 10px;
+  color: #ffffff;
+}
+
+.buttonClick {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-top: 20px;
+  background-color: #efd372;
+  color: #274c5b;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #cbb860;
+}
+
+.offerList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}

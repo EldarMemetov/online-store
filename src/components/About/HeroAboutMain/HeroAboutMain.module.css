@@ -1,0 +1,43 @@
+/* src/components/About/HeroAboutMain/HeroAboutMain.module.css */
+.heroSection {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding: 50px 20px;
+  min-height: 300px;
+  margin-bottom: 100px;
+  overflow: hidden;
+}
+
+.backgroundImage1,
+.backgroundImage2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.backgroundImage1 {
+  background-image: url("../imageAbout/background.png"); /* Первая фотография */
+  z-index: 1; /* Первая фотография находится на самом низком уровне */
+}
+
+.backgroundImage2 {
+  background-image: url("../imageAbout/patterns.png"); /* Вторая фотография */
+  z-index: 2; /* Вторая фотография находится поверх первой */
+}
+
+.heroTitle {
+  position: relative;
+  font-size: 3rem;
+  font-weight: 700;
+  color: #274c5b;
+  font-family: "Roboto", sans-serif;
+  z-index: 3; /* Заголовок находится поверх всех фотографий */
+}

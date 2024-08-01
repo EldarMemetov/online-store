@@ -1,0 +1,58 @@
+.promotionList {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
+}
+
+.promotionItem {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.promotionImage {
+  width: 400px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.promotionText {
+  position: absolute;
+  bottom: 50px;
+  left: 10px;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.sectionPromotion {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+.natural {
+  font-family: "Yellowtail", cursive;
+  font-size: 20px;
+  color: white;
+  margin-bottom: 5px;
+}
+.naturalNext {
+  font-family: "Yellowtail", cursive;
+  font-size: 20px;
+  color: #7eb693;
+  margin-bottom: 5px;
+}
+.textGet {
+  color: black;
+  font-size: 20px;
+  width: 200px;
+}
+.textGetNext {
+  color: white;
+  font-size: 20px;
+  width: 200px;
+}

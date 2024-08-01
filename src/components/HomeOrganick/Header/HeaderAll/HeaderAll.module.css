@@ -1,0 +1,41 @@
+.header {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.registrationButton {
+  padding: 10px 20px;
+  background: linear-gradient(135deg, #75ec50, #04743f);
+  color: #fff;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background 0.3s, transform 0.3s;
+}
+
+.registrationButton:hover {
+  background: linear-gradient(135deg, #0da552, #6a82fb);
+  transform: scale(1.05);
+}
+
+.profileLink {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 4px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.profileLink:hover {
+  background-color: #e9ecef;
+  color: #0056b3;
+}
+
+.profileLink.active {
+  background-color: #007bff;
+  color: white;
+}

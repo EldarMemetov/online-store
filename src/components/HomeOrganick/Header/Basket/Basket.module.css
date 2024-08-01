@@ -1,0 +1,40 @@
+.basketContainer {
+  margin-left: 25px;
+}
+
+.basketButton {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 15px;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  transition: background 0.3s, box-shadow 0.3s, transform 0.3s;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+.basketButton:hover {
+  background: rgba(130, 235, 186, 0.308);
+  box-shadow: 0 12px 16px rgba(0, 0, 0, 0.15);
+  transform: scale(1.05);
+}
+
+.basketIcon {
+  font-size: 22px;
+  color: #0c0c0c;
+  transition: transform 0.3s;
+}
+
+.basketButton:hover .basketIcon {
+  transform: scale(1.2);
+}
+
+.cartText {
+  font-size: 16px;
+  color: #0f0f0f;
+  font-weight: bold;
+}

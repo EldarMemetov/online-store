@@ -1,0 +1,57 @@
+.offerSection {
+  background-color: #274c5b;
+  padding: 50px 20px;
+  margin-bottom: 70px;
+  margin-top: 70px;
+}
+
+.offerContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.offerHeading {
+  margin-bottom: 30px;
+}
+
+.offerTitle {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #7eb693;
+  font-family: "Yellowtail", cursive;
+}
+
+.offerSubtitle {
+  font-size: 2rem;
+  font-weight: 700;
+  color: white;
+}
+
+.offerList {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.offerItem {
+  background-color: white;
+  border: 2px solid white;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  width: 200px;
+}
+
+.offerImage {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.offerText {
+  font-size: 1rem;
+  color: #333;
+  margin-top: 10px;
+}

@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "name": "Calabrese Broccoli",
+    "category": "Vegetable",
+    "price": 20.0,
+    "discountedPrice": 13.0,
+    "image": "https://i.imgur.com/hZxrFWl.png",
+    "rating": 4.5
+  },
+  {
+    "id": 2,
+    "name": "Fresh Banana Fruits",
+    "category": "Fresh",
+    "price": 20.0,
+    "discountedPrice": 14.0,
+    "image": "https://i.imgur.com/UUabYCm.png",
+    "rating": 4.0
+  },
+  {
+    "id": 3,
+    "name": "White Nuts",
+    "category": "Millets",
+    "price": 20.0,
+    "discountedPrice": 15.0,
+    "image": "https://i.imgur.com/sbPY460.png",
+    "rating": 4.7
+  },
+  {
+    "id": 4,
+    "name": "Vegan Red Tomato",
+    "category": "Vegetable",
+    "price": 20.0,
+    "discountedPrice": 17.0,
+    "image": "https://i.imgur.com/kDusvIp.png",
+    "rating": 4.3
+  },
+  {
+    "id": 5,
+    "name": "Mung Bean",
+    "category": "Health",
+    "price": 20.0,
+    "discountedPrice": 11.0,
+    "image": "https://i.imgur.com/UOqjzpp.png",
+    "rating": 4.2
+  },
+  {
+    "id": 6,
+    "name": "Brown Hazelnut",
+    "category": "Nuts",
+    "price": 20.0,
+    "discountedPrice": 12.0,
+    "image": "https://i.imgur.com/YgRJyVG.png",
+    "rating": 4.6
+  },
+  {
+    "id": 7,
+    "name": "Eggs",
+    "category": "Fresh",
+    "price": 20.0,
+    "discountedPrice": 17.0,
+    "image": "https://i.imgur.com/usEImr0.png",
+    "rating": 4.8
+  },
+  {
+    "id": 8,
+    "name": "Zelco Suji Elaichi Rusk",
+    "category": "Fresh",
+    "price": 20.0,
+    "discountedPrice": 15.0,
+    "image": "https://i.imgur.com/tTNjbUz.png",
+    "rating": 4.4
+  }
+]

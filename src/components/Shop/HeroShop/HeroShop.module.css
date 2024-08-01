@@ -1,0 +1,41 @@
+.heroSection {
+  position: relative;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  margin-bottom: 100px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("../imageShop/Image_1.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.overlaySecondary {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("../imageShop/Image_2.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.content {
+  position: relative;
+}
+
+.title {
+  color: #274c5b;
+  font-family: "Roboto", sans-serif;
+  font-size: 3rem;
+}

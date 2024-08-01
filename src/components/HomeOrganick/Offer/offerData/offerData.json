@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Mung Bean",
+    "category": "Vegetable",
+    "originalPrice": 20.0,
+    "discountPrice": 17.0,
+    "imageUrl": "https://i.imgur.com/guppcrn.png"
+  },
+  {
+    "name": "Brown Hazelnut",
+    "category": "Vegetable",
+    "originalPrice": 11.0,
+    "discountPrice": 10.0,
+    "imageUrl": "https://i.imgur.com/2DF2y06.png"
+  },
+  {
+    "name": "Onion",
+    "category": "Vegetable",
+    "originalPrice": 20.0,
+    "discountPrice": 15.0,
+    "imageUrl": "https://i.imgur.com/V5qaO6j.png"
+  },
+  {
+    "name": "Cabbage",
+    "category": "Vegetable",
+    "originalPrice": 12.0,
+    "discountPrice": 10.0,
+    "imageUrl": "https://i.imgur.com/tEZXnQC.png"
+  }
+]

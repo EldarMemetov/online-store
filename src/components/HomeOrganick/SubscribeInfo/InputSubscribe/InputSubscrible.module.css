@@ -1,0 +1,73 @@
+.inputSubscribeContainer {
+  background-image: url("../imgSubscribe/Image.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 30px 20px;
+  border-radius: 10px;
+
+  margin: 0 auto;
+  text-align: center;
+  color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.heading {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  color: #333;
+  font-weight: bold;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.containerForm {
+  margin-bottom: 20px;
+}
+
+.inputField {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  color: #333;
+}
+
+.inputField::placeholder {
+  color: #888;
+}
+
+.submitButton {
+  padding: 12px 20px;
+  background-color: #274c5b;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 1rem;
+}
+
+.submitButton:hover {
+  background-color: #1f3b47;
+}
+
+.thankYouMessage {
+  margin-top: 20px;
+  background-color: #dff0d8;
+  color: #3c763d;
+  padding: 15px;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.spanError {
+  color: #e74c3c;
+  font-size: 0.9rem;
+}

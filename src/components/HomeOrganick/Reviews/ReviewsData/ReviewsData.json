@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "name": "Sara Taylor",
+    "role": "Consumer",
+
+    "testimonial": "Simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since."
+  },
+  {
+    "id": 2,
+    "name": "John Smith",
+    "role": "Regular Customer",
+
+    "testimonial": "Lorem Ipsum has been the industry's standard dummy text ever since. It has survived not only five centuries, but also the leap into electronic typesetting."
+  },
+  {
+    "id": 3,
+    "name": "Emily Johnson",
+    "role": "Frequent Buyer",
+
+    "testimonial": "An amazing experience with excellent customer service. The printing and typesetting industry can truly benefit from such attention to detail."
+  },
+  {
+    "id": 4,
+    "name": "Michael Lee",
+    "role": "New Customer",
+
+    "testimonial": "The dummy text of the printing industry has never been so vibrant. Lorem Ipsum's simplicity is what makes it timeless and universally recognized."
+  }
+]

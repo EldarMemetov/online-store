@@ -1,0 +1,101 @@
+AboutUs.module.css .aboutUsSection {
+  padding-bottom: 70px;
+  background-color: #f9f8f8;
+}
+.SmallContainer {
+  display: flex;
+  flex-direction: column;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+}
+
+.aboutImage {
+  width: 500px;
+  height: 500px;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: flex-end;
+  align-items: center;
+}
+
+.aboutText {
+  margin-bottom: 10px;
+  font-family: "Yellowtail", cursive;
+  color: #7eb693;
+}
+
+.heading {
+  font-size: 24px;
+  width: 300px;
+  margin-bottom: 10px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+}
+
+.description {
+  font-family: "Open Sans", sans-serif;
+  font-size: 12px;
+  width: 400px;
+  margin-bottom: 22px;
+  color: #525c60;
+}
+
+.list {
+}
+
+.listItem {
+  display: flex;
+}
+
+.icon {
+  margin-right: 35px;
+}
+
+.itemHeading {
+  font-size: 24px;
+  margin-bottom: 10px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+}
+
+.itemText {
+  font-family: "Open Sans", sans-serif;
+  font-size: 12px;
+  width: 400px;
+  margin-bottom: 12px;
+  color: #525c60;
+  width: 300px;
+}
+
+.shopButton {
+  background-color: #274c5b;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-top: 25px;
+}
+
+.shopButton:hover {
+  background-color: #1f3b4a;
+  transform: translateY(-2px);
+}
+
+.shopButton:active {
+  background-color: #162935;
+  transform: translateY(0);
+}

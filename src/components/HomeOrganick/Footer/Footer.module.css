@@ -1,0 +1,124 @@
+.footer {
+  margin-bottom: 50px;
+  margin-top: 100px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  gap: 20px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 8px;
+}
+
+.contact,
+.organick,
+.utilityPages {
+  margin: 0 20px;
+}
+
+.emailText,
+.numberText,
+.addressText {
+  font-weight: 600;
+}
+
+.simply {
+  font-family: Open Sans, serif;
+  width: 400px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.pages {
+  font-family: Open Sans, serif;
+}
+
+.contact h4,
+.organick h4,
+.utilityPages h4 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.organicText {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.contactItem {
+  margin-bottom: 10px;
+  font-family: Open Sans, serif;
+}
+
+.contactItem p {
+  margin: 5px 0;
+  color: #555;
+}
+
+.contactItem a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.contactItem a:hover {
+  text-decoration: underline;
+}
+
+.organick p {
+  color: #555;
+}
+
+.utilityPages ul {
+  list-style: none;
+  padding: 0;
+}
+
+.utilityPages ul li {
+  margin-bottom: 8px;
+}
+
+.utilityPages ul li a {
+  color: #333;
+  text-decoration: none;
+}
+
+.utilityPages ul li a:hover {
+  text-decoration: underline;
+}
+
+.listIcon {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+
+.iconLink {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #ddd;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.iconLink:hover {
+  background-color: #08f423;
+}
+
+.icon {
+  font-size: 24px;
+  color: #555;
+  transition: color 0.3s ease;
+}
+
+.iconLink:hover .icon {
+  color: #fff;
+}

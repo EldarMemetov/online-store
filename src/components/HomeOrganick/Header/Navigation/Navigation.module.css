@@ -1,0 +1,14 @@
+.navLink {
+  color: #333;
+  text-decoration: none;
+  margin: 0 15px;
+}
+
+.activeLink {
+  color: green;
+  font-weight: bold;
+}
+.navList {
+  display: flex;
+  margin-right: 20px;
+}
