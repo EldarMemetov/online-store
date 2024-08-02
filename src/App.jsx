@@ -24,7 +24,6 @@ function App() {
         <Route path="HeroAbout" element={<AboutAllCommand />} />
         <Route path="portfolio" element={<PortfolioAll />} />
         <Route path="Shop" element={<AllProductsPage />} />
-        <Route path="Projects" element={<div>Projects</div>} />
         <Route path="Blog" element={<BlogAll />} />
         <Route path="/profile" element={<UserProfile />} />
         <Route path="/login" element={<LoginForm />} />
