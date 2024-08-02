@@ -1,0 +1,30 @@
+.basketListContainer {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 70px;
+}
+
+.basketListContainer h1 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.basketListContainer p {
+  font-size: 1.1rem;
+  color: #555;
+}
+
+.basketList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.basketSummary {
+  margin-top: 20px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
+}

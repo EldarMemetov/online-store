@@ -1,0 +1,67 @@
+.heroErrorContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url("../imageError/Image.png");
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+  color: #fff;
+  margin-bottom: 50px;
+  justify-content: flex-end;
+}
+
+.content {
+  padding: 40px;
+  border-radius: 8px;
+  max-width: 500px;
+  width: 100%;
+  text-align: left;
+  position: relative;
+}
+
+.errorCode {
+  font-size: 120px;
+  color: #8fa8a8;
+  margin: 0;
+}
+
+.errorMessage {
+  font-family: "Roboto", sans-serif;
+  font-weight: 800;
+  color: #274c5b;
+  font-size: 36px;
+  margin: 10px 0;
+}
+
+.errorDescription {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  color: #525c60;
+  font-size: 18px;
+  margin: 20px 0;
+}
+
+.homeButton {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: #274c5b;
+  background: none;
+  border: 2px solid #274c5b;
+  border-radius: 4px;
+  padding: 10px 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.homeButton:hover {
+  background-color: #274c5b;
+  color: #fff;
+}
+
+.homeButton svg {
+  margin-left: 8px;
+}

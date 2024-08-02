@@ -1,4 +1,3 @@
-// src/App.jsx
 import "./App.css";
 import { Routes, Route } from "react-router-dom";
 import { HeaderAll } from "./components/HomeOrganick/Header/HeaderAll/HeaderAll";
@@ -10,6 +9,10 @@ import InputSubscrible from "./components/HomeOrganick/SubscribeInfo/InputSubscr
 import { Toaster } from "react-hot-toast";
 import LoginForm from "./components/HomeOrganick/Header/UserRegistration/LoginForm/LoginForm";
 import { UserProfile } from "./components/HomeOrganick/Header/UserRegistration/UserProfile/UserProfile";
+import { PortfolioAll } from "./components/Portfolio/PortfolioAll/PortfolioAll";
+import { BlogAll } from "./components/Blog/BlogAll/BlogAll";
+import { HeroError } from "./components/Error/HeroError/HeroError";
+import { BasketAll } from "./components/HomeOrganick/Header/Basket/BascketAll/BasketAll";
 
 function App() {
   return (
@@ -19,12 +22,14 @@ function App() {
       <Routes>
         <Route path="/" element={<AllHomePage />} />
         <Route path="HeroAbout" element={<AboutAllCommand />} />
-        <Route path="Pages" element={<div>Pages</div>} />
+        <Route path="portfolio" element={<PortfolioAll />} />
         <Route path="Shop" element={<AllProductsPage />} />
         <Route path="Projects" element={<div>Projects</div>} />
-        <Route path="News" element={<div>News</div>} />
+        <Route path="Blog" element={<BlogAll />} />
         <Route path="/profile" element={<UserProfile />} />
         <Route path="/login" element={<LoginForm />} />
+        <Route path="*" element={<HeroError />} />{" "}
+        <Route path="/basket" element={<BasketAll />} />
       </Routes>
       <InputSubscrible />
       <Footer />

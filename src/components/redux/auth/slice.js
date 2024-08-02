@@ -1,5 +1,6 @@
+// src/redux/auth/slice.js
 import { createSlice } from "@reduxjs/toolkit";
-import { login, register } from "./operations";
+import { login, register, logOut } from "./operations";
 
 const authSlice = createSlice({
   name: "auth",
@@ -14,7 +15,6 @@ const authSlice = createSlice({
     error: null,
   },
   extraReducers: (builder) => {
-    // Обработка для register
     builder
       .addCase(register.pending, (state) => {
         state.loading = true;
@@ -32,7 +32,6 @@ const authSlice = createSlice({
         state.error = action.payload || action.error.message;
       });
 
-    // Обработка для login
     builder
       .addCase(login.pending, (state) => {
         state.loading = true;
@@ -46,6 +45,26 @@ const authSlice = createSlice({
         state.error = null;
       })
       .addCase(login.rejected, (state, action) => {
+        state.loading = false;
+        state.error = action.payload || action.error.message;
+      });
+
+    builder
+      .addCase(logOut.pending, (state) => {
+        state.loading = true;
+        state.error = null;
+      })
+      .addCase(logOut.fulfilled, (state) => {
+        state.user = {
+          name: null,
+          email: null,
+        };
+        state.token = null;
+        state.isLoggedIn = false;
+        state.loading = false;
+        state.error = null;
+      })
+      .addCase(logOut.rejected, (state, action) => {
         state.loading = false;
         state.error = action.payload || action.error.message;
       });

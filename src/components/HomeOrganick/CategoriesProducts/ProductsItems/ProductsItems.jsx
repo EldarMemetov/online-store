@@ -1,3 +1,4 @@
+import { useNavigate } from "react-router-dom";
 import styles from "./ProductsItems.module.css";
 import { ProductsRating } from "../ProductsRating/ProductsRating";
 
@@ -9,6 +10,12 @@ const ProductsItems = ({
   image,
   rating,
 }) => {
+  const navigate = useNavigate();
+
+  const handleProductClick = () => {
+    navigate(`/Shop`);
+  };
+
   return (
     <li className={styles.productCard}>
       <img src={image} alt={name} className={styles.productImage} />
@@ -27,7 +34,9 @@ const ProductsItems = ({
         )}
       </div>
       <ProductsRating rating={rating} />
-      <button className={styles.buyButton}>Buy</button>
+      <button className={styles.buyButton} onClick={handleProductClick}>
+        Go to product
+      </button>
     </li>
   );
 };

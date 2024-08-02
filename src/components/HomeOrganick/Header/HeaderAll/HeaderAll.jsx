@@ -1,5 +1,3 @@
-// src/components/HomeOrganick/Header/HeaderAll/HeaderAll.jsx
-import { Basket } from "../Basket/Basket";
 import { LogoStrings } from "../Logo/LogoPng/LogoStrings";
 import Navigation from "../Navigation/Navigation";
 import all from "./HeaderAll.module.css";
@@ -8,6 +6,7 @@ import { useState } from "react";
 import { useSelector } from "react-redux";
 import { selectIsLoggedIn } from "../../../redux/auth/selectors";
 import { NavLink } from "react-router-dom";
+import { Basket } from "../Basket/BasketIcon/Basket";
 
 export function HeaderAll() {
   const [isModalOpen, setIsModalOpen] = useState(false);

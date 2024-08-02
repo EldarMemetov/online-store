@@ -2,8 +2,13 @@ import AboutImg from "./img/imegeAbout.png";
 import organic from "./img/organic.svg";
 import quality from "./img/quality.svg";
 import styles from "./AboutUs.module.css";
+import { useNavigate } from "react-router-dom";
 
 export function AboutUs() {
+  const navigate = useNavigate();
+  const handleShopNowClick = () => {
+    navigate("/shop");
+  };
   return (
     <section className={styles.aboutUsSection}>
       <div className={styles.container}>
@@ -43,7 +48,9 @@ export function AboutUs() {
             </div>
           </li>
           <li className={styles.listItem}>
-            <button className={styles.shopButton}>Shop Now</button>
+            <button className={styles.shopButton} onClick={handleShopNowClick}>
+              Shop Now
+            </button>
           </li>
         </ul>
       </div>

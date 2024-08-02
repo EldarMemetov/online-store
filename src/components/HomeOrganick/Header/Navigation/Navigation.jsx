@@ -28,12 +28,12 @@ export default function Navigation() {
         </li>
         <li>
           <NavLink
-            to="/Pages"
+            to="/portfolio"
             className={({ isActive }) =>
               clsx(styles.navLink, { [styles.activeLink]: isActive })
             }
           >
-            Pages
+            Portfolio
           </NavLink>
         </li>
         <li>
@@ -46,24 +46,25 @@ export default function Navigation() {
             Shop
           </NavLink>
         </li>
+
         <li>
           <NavLink
-            to="/Projects"
+            to="/Blog"
             className={({ isActive }) =>
               clsx(styles.navLink, { [styles.activeLink]: isActive })
             }
           >
-            Projects
+            Blog
           </NavLink>
         </li>
         <li>
           <NavLink
-            to="/News"
+            to="/basket"
             className={({ isActive }) =>
               clsx(styles.navLink, { [styles.activeLink]: isActive })
             }
           >
-            News
+            Cart
           </NavLink>
         </li>
       </ul>
