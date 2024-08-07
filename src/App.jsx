@@ -18,8 +18,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { refreshUser } from "./components/redux/auth/operations";
 import { selectIsRefreshing } from "./components/redux/auth/selectors";
 import { PropagateLoader } from "react-spinners";
-import RestrictedRoute from "./RestrictedRoute";
-import PrivateRoute from "./PrivateRoute";
+
 function App() {
   const dispatch = useDispatch();
   const isRefreshing = useSelector(selectIsRefreshing);
@@ -35,23 +34,12 @@ function App() {
       <Toaster position="top-right" reverseOrder={false} />
       <HeaderAll />
       <Routes>
-        <Route
-          path="/"
-          element={
-            <RestrictedRoute
-              component={<AllHomePage />}
-              redirectTo="/profile"
-            />
-          }
-        />
+        <Route path="/" element={<AllHomePage />} />
         <Route path="HeroAbout" element={<AboutAllCommand />} />
         <Route path="portfolio" element={<PortfolioAll />} />
         <Route path="Shop" element={<AllProductsPage />} />
         <Route path="Blog" element={<BlogAll />} />
-        <Route
-          path="/profile"
-          element={<PrivateRoute component={<UserProfile />} redirectTo="/" />}
-        />
+        <Route path="/profile" element={<UserProfile />} />
         <Route path="/login" element={<LoginForm />} />
         <Route path="*" element={<HeroError />} />{" "}
         <Route path="/basket" element={<BasketAll />} />
