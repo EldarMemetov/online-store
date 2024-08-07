@@ -46,7 +46,6 @@ export default function Navigation() {
             Shop
           </NavLink>
         </li>
-
         <li>
           <NavLink
             to="/Blog"
